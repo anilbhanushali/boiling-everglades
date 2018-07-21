@@ -8,7 +8,7 @@ TABLE balances
   - account (unique)
   - balance
 */
-const knexfile = require('./database/knexfile')
+const knexfile = require('../knexfile')
 const knex = require('knex')(knexfile);
 const moment = require('moment');
 

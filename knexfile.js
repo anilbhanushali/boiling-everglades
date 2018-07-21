@@ -1,5 +1,5 @@
 const path = require('path');
-const sqliteDBPath = path.join(__dirname, 'mydb.sqlite');
+const sqliteDBPath = './mydb.sqlite';
 module.exports = {
     client: 'sqlite3',
     connection: {
